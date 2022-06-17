@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color: #00DBDE;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.container{
+    width: 800px;
+    margin: 80px auto;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+}
+
+.navbar{
+    max-width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+}
+
+.navbar > img{
+    margin: 8px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.card--photo{
+    width: 350px;
+    margin: 20px 30px 20px 15px;
+    max-height: 250px;
+    border-radius: 15px;
+}
+
+.card--country-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card--info-container > h1{
+    margin: 10px auto;
+    font-size: 40px;
+}
+
+
+.card--info-container > h4{
+    margin: 15px auto 2px;
+}
+
+.card--country-info > a{
+    margin-left: 20px;
+    color: grey;
+}
+
+.card--country-info > p{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.17em;
+}
